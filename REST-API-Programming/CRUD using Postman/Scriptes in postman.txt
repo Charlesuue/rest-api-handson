@@ -1,0 +1,36 @@
+GET
+http://127.0.0.1:5000/customer/4/customer_satisfaction
+
+
+
+PUT
+http://127.0.0.1:5000/customer/8
+
+{
+    "id_Customer": "12",
+    "Last_name": "Bandilia",
+    "First_name": "Ma. Rena",
+    "Contact_No": "0999509313",
+    "Email": "renamae@gmail.com",
+    "Location": "Tiniguiban",
+    "Password": "renamae45"
+}
+
+
+
+
+POST http://127.0.0.1:5000/customer
+
+{
+    "id_Customer": "8",
+    "Last_name": "Bandilia",
+    "First_name": "Ma. Rena",
+    "Contact_No": "0999509313",
+    "Email": "renamae@gmail.com",
+    "Location": "Tiniguiban",
+    "Password": "renamae23"
+}
+
+DELETE http://127.0.0.1:5000/customer/54
+
+
